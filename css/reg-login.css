@@ -1,0 +1,130 @@
+.login{
+    width:100%;
+    
+}
+.login-img img{
+    width:22%;
+    padding:0 0 50px 10px;
+}
+.login-img{
+    display:0;
+    margin-left: 600px;
+}
+.login h1{
+    text-align:center;
+    font-size:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    padding:13px 0;
+}
+/* .ff{
+    display:flex;
+    width:100%;
+}
+.empt{
+    width:30%;
+} */
+#login-info{
+    display: flex;
+}
+#login-wrap{
+    width:30%;
+    /* background:#fba100; */
+    text-align: center;
+    border-radius:8px;
+    /* box-shadow:0 0 0 0 #f2f2f2; */
+    box-shadow: 0 0.125rem 150px 0 rgb(0 0 0 / 10%);
+}
+#login-wrap span{
+    background-color: #fff;
+    border: .0625rem solid #e8e8e8;
+    border-radius: 50%;
+    color: #9b9b9b;
+    display: inline-block;
+    font-size: .6875rem;
+    padding: .3125rem;
+    margin:18px 0;
+    position: relative;
+    z-index: 99;
+}
+.login #login-wrap{
+    align-items: center;
+}
+.login-social-network{
+    display:flex;
+    justify-content: center;
+    padding:10px 20px;
+}
+.login-social-network .p-fb{
+    font-size:15px;
+    background-color:0;
+    padding: 10px 10px;
+    color: rgb(8, 8, 99);
+}
+.login-social-network .p-google{
+    font-size:15px;
+    background-color:0;
+    padding: 0 10px;
+    padding-top:0;
+    color:royalblue;
+}
+.login-social-network .img-fb{
+    width:68px;
+}
+.login-social-network .img-google{
+    width:50px;
+    padding-top:10px;
+}
+.fbb{
+    border-radius:5px;
+    border:1px solid rgb(5, 5, 128);
+    background:#fff;
+    margin: 5px;
+}
+.goo{
+    border-radius:5px;
+    background:#fff;
+    margin: 5px;
+    border:1px solid royalblue;
+}
+input[type=text],[type=password]{
+    width:80%;
+    padding:10px 5px;
+    margin-bottom:20px;
+    box-shadow: 0 0 0 0.3px;
+    border:none;
+    border-radius: 2px;
+}
+label{
+    padding:20px 0;
+}
+button{
+    width: 80%;
+    background:#33b27b;
+    font-size:15px;
+    font-weight: bolder;
+    padding:10px 0;
+    color: #fff;
+    border-radius:5px;
+    border:none;
+    margin-bottom:45px;
+}
+.new-acct{
+    
+    text-align: center;
+    margin:0 40px;
+    padding:10px 0;
+    border-radius:5px;
+    border: 1px solid #ed017f;
+    font-weight:bolder;
+    color:#ed017f;
+}
+.login .nacct:hover .new-acct{
+    color:#fff;
+    background:#ed017f;
+    behavior: smooth;
+}
+.signup{
+    margin-left:500px;
+    width:100%;
+}

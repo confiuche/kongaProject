@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    background-color:#f2f2f2;
+}
+a{
+    text-decoration:none;
+}
+ul li{
+    list-style: none;
+}
+.first-layer2{
+    display:flex;
+    width:898px;
+    text-align: center;
+}
+.first-layer{
+    width:100%;
+    padding:8px 0 8px 200px;
+    background-color:#f2f2f2;
+}
+    /*
+nav ul{
+    display:flex;
+    padding:10px 100px 0 100px;
+    align-items:center;
+}
+nav img{
+    width:45%;
+} */
+.first-layer2 img{
+    width:70%;
+}
+.navigation{
+    display: flex;
+    padding: 15px;
+    background-color:#ed017f;
+    /* justify-content:space-around; */
+    justify-content: center;
+}
+.navigation a, span{
+    color: #fff;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation1{
+    font-weight:bolder;
+    font-size:28px;
+    padding:4px 55px 0 0;
+}
+.navigation1 i{
+    color:#ed017f;
+    background-color:#fba100;
+}
+.navigation ul li{
+    padding:0 55px 0 0;
+}
+.navigation ul li ul li{
+    display: inline-block;
+    display: none;
+}
+/* .category{
+    display: flex;
+    justify-content: space-around;
+    background-color:#94004f;
+    padding:10px 10px;
+} */
+.categories ul li:hover{
+    background-color: #fff;
+    color: #000;
+    height:38px;
+    padding:10px 0 0 0;
+}
+.categories ul{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    background-color:#94004f;
+    height: 38px;
+    padding:0 0 0 0;
+    
+} 
+.categories ul li{
+    color: #f2f2f2;
+}
+/* .categories:hover ul li a{
+    background-color:#fff;
+    color: #000;
+} */
+input[type=search]{
+    
+    padding:5px 2px 5px 2px;   
+}
+button{
+    padding:5px 10px 5px 10px;
+}
+.main-img{
+    display:flex;
+    width:100%;
+    height:100%;
+    margin-bottom: 15px;
+    /* margin:10px;
+    padding: 10px; */
+    
+}
+.main-img1{
+    width:80%;
+    
+    /* background-color: rosybrown; */
+}
+.main-img3{
+    width:20%;
+    /* background-color:royalblue; */
+    
+    
+}
+.img-5{
+    width: 100%;
+    padding:5px;
+    border-radius:9px;
+}
+.img-4{
+    width: 100%;
+    height:100%;
+    padding: 5px;
+    border-radius:9px;
+}
+
+/* .main-img3{
+    display:flex; */
+    /* flex-direction: column; */
+} 
+
+.main-img3 img{
+    width:20%;
+}
+.application{
+    display:flex;
+    justify-content: space-around;
+    /* width: 100%; */
+    margin-bottom: 20px;
+}
+.appli{
+    /* box-shadow: 0 0 0.5rem rgb(0 0 0 / 5%); */
+    box-shadow:0 0 0 0.3px;
+    padding: 8px 20px;
+    /* background-color:#f2f2f2; */
+}
+.card-card ul{
+    display: flex;
+    align-items: center;
+}
+.card-card{
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+
+.see-all{
+    display: flex;
+}
+.main-card{
+    width:100%;
+}
+.see-all h3, a{
+    padding: 15px 15px;
+}
+.see-all a:hover{
+    text-decoration: underline;
+}
+.card-card{
+    display: flex;
+}
+.card{
+    display: flex;
+    width: 33%;
+    padding: 18px 30px;
+    margin:8px 8px;
+    /* background-color: aqua; */
+    box-shadow:0 0 0 0.3px;
+}
+.card p{
+    flex-direction: column;
+}
+.card img{
+    width:75%;
+}
+.main-card2{
+    display:flex;
+    width:100%;
+    margin:10px;
+}
+.card2{
+    width:16.6%;
+    background-color:#f2f2f2;
+    padding: 0 0 0 0;
+}
+.card2 img{
+    width:90%;
+}
+.copy{
+    width:100%;
+    margin:20px 10px;
+    padding:10px;
+}
+.copy img{
+    width:98%;
+}
+.bag{
+display:flex;
+/* margin:10px; */
+padding:10px;
+}
+.bag img{
+    margin-right:10px;
+}
+/*
+.bag :last-child{
+    margin-left:0;
+} */
+.pro{
+background:url(https://res.cloudinary.com/staging-konga-com/image/upload/f_auto,q_auto/assets/images/homepage/category_icons.png) no-repeat;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.foot1 ul{
+    display:flex;
+    justify-content:space-around;
+    color:#fff;
+    background-color:#2e2e2e;
+    padding:20px 0;
+}
+.btnsubscribe{
+    background-color: #ed017f;
+    border: none;
+    border-radius: 0 .1875rem .1875rem 0;
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 600;
+    height: 2.8125rem;
+    text-align: center;
+    width: 32%;
+}
+#email{
+    background-color: #fff;
+    border: none;
+    border-radius: .1875rem 0 0 .1875rem;
+    font-size: .875rem;
+    height: 2.8125rem;
+    outline: none;
+    padding-left: .625rem;
+}
