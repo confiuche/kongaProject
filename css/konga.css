@@ -6,6 +6,8 @@
 body{
     width:100%;
     background-color:#f2f2f2;
+    justify-content: center;
+    align-items: center;
 }
 a{
     text-decoration:none;
@@ -232,6 +234,39 @@ background:url(https://res.cloudinary.com/staging-konga-com/image/upload/f_auto,
 }
 
 
+.cardd .card3{
+    background-image:url("../images/bullRice.jpg");
+}
+
+
+
+
+.foot-info{
+    display: flex;
+    background-color:#2e2e2e;
+    justify-content:space-around;
+    padding:20px 0 20px 0;
+}
+.foot-contact h3, p  {
+    color:#b5b5b5;
+}
+.foot-contact:hover h3 p{
+    color:#fff;
+}
+.foot-contact{
+    display: flex;
+}
+.foot-contact img{
+    width: 30px;
+    padding:10px 0 0 8px;
+}
+.img-icon{
+    width:40px;
+    height:40px;
+    margin:0 5px 0 0;
+    background-color:#fff;
+    border-radius:100%;
+}
 
 
 
@@ -241,14 +276,13 @@ background:url(https://res.cloudinary.com/staging-konga-com/image/upload/f_auto,
 
 
 
-
-.foot1 ul{
+/* .foot1 ul{
     display:flex;
     justify-content:space-around;
     color:#fff;
     background-color:#2e2e2e;
     padding:20px 0;
-}
+} */
 .btnsubscribe{
     background-color: #ed017f;
     border: none;
@@ -269,3 +303,65 @@ background:url(https://res.cloudinary.com/staging-konga-com/image/upload/f_auto,
     outline: none;
     padding-left: .625rem;
 }
+
+
+
+.foot-wrap{
+    width:100%;
+    background-color:#0c0c0c;
+}
+.foot-wrap p{
+    color:#979797;
+    text-align: center;
+    padding-bottom:40px;
+}
+.main-footer{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    padding:20px 30px 50px 10px
+    
+}
+
+.footer-info{
+    display:flex;
+    width: 70%;
+    justify-content: space-around;
+    /* padding:20px 30px 50px 10px; */
+}
+.foot-info ul a{
+    text-align:justify;
+}
+.main-footer h4, h3, li {
+    color:#979797;
+}
+.main-footer ul a{
+    color: #979797;
+}
+.main-footer ul li{
+    padding-bottom: 10px;
+}
+.main-footer h4{
+    padding-bottom:20px;
+}
+.footer-social > ul{
+    display:flex;
+}
+.footer-app{
+    width: 25%;
+}
+.store img{
+    width:40%;
+    margin:0 0 40px 0;
+    
+}
+.store img:first-child{
+    margin-right:20px;
+}
+.footer-social img{
+    width: 60%;
+    border-radius:50%;
+}
+/* .footer-app ul li i{
+    width:50%;
+} */
