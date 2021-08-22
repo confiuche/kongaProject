@@ -225,18 +225,7 @@ padding:10px;
 .bag img{
     margin-right:10px;
 }
-/*
-.bag :last-child{
-    margin-left:0;
-} */
-.pro{
-background:url(https://res.cloudinary.com/staging-konga-com/image/upload/f_auto,q_auto/assets/images/homepage/category_icons.png) no-repeat;;
-}
 
-
-.cardd .card3{
-    background-image:url("../images/bullRice.jpg");
-}
 
 
 
@@ -303,6 +292,117 @@ background:url(https://res.cloudinary.com/staging-konga-com/image/upload/f_auto,
     outline: none;
     padding-left: .625rem;
 }
+.pro{
+   background-image:url("C:\Users\DUC\Desktop\KongaProjectAssignment\images\Buy Phones, Fashion, Electronics in Nigeria _ Konga Online Shopping_files");
+}
+.cardd{
+    display: flex;
+    width: 100%;
+}
+.cardd1{
+    width:20%;
+    height:100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin:0 8px 12px 8px;
+    padding-bottom:20px;
+}
+.noodles{
+    background-image:url('../images/noodles.jpg');
+    width:100%;
+    height:210px;
+    background-repeat:no-repeat;
+}
+.jameson{
+    background-image:url('../images/jameson.jpg');
+    width:100%;
+    height:210px;
+    align-items: center;
+    background-repeat:no-repeat;
+}
+.superlife{
+    background-image:url('../images/superlife.jpg');
+    width:100%;
+    height:210px;
+    background-repeat:no-repeat;
+}
+.hennessy{
+    background-image:url('../images/hennessy.jpg');
+    width:100%;
+    height:210px;
+    background-repeat:no-repeat;
+}
+.cocacola{
+    background-image:url('../images/cocacola.png');
+    width:100%;
+    height:210px;
+    background-repeat:no-repeat;
+}
+
+
+
+
+.fifth-card{
+    display: flex;
+    width:100%;
+    justify-content:space-between;
+}
+.card-5th{
+    width:25%;
+    height:100%;
+    margin: 12px 12px;
+    /* box-shadow:0 0 1px 0; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius:10px;
+}
+.card-5th:first-child{
+    padding-left:0;
+}
+.card-5th > a span{
+    color:#ed017f;
+}
+.card-5th a h3,span, i, p{
+    padding:0 2px 20px 2px;
+}
+.card-desktop{
+    background-image:url('../images/computer1.png');
+    width:100%;
+    height:210px;
+    /* margin-bottom: 10px; */
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    background-repeat:no-repeat;
+}
+.card-fitness{
+    background-image:url('../images/fitness.png');
+    width:100%;
+    height:210px;
+    /* margin-bottom: 10px; */
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    background-repeat:no-repeat;
+}
+.card-kids{
+    background-image:url('../images/kids.png');
+    width:100%;
+    height:210px;
+    /* margin-bottom: 10px; */
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    background-repeat:no-repeat;
+}
+.card-tv{
+    background-image:url('../images/tv1.png');
+    width:100%;
+    height:210px;
+    /* margin-bottom: 10px; */
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    background-repeat:no-repeat;
+}
+
+
+
+
 
 
 
@@ -365,3 +465,16 @@ background:url(https://res.cloudinary.com/staging-konga-com/image/upload/f_auto,
 /* .footer-app ul li i{
     width:50%;
 } */
+
+.hr-line{
+    display:flex;
+}
+.hr1, .hr2{
+    width: 61%;
+    padding-top:10px;
+}
+.copy-right{
+    width:38%;
+    text-align:center;
+    padding:0 0 60px 0;
+}
